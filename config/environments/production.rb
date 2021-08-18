@@ -93,4 +93,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.web_socket_server_url = "wss://shrouded-fjord-01836.herokuapp.com/cable"
+  config.action_cable.allowed_request_origins = ['https://shrouded-fjord-01836.herokuapp.com', 'http://shrouded-fjord-01836.herokuapp.com']
 end
